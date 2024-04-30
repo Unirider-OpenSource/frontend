@@ -40,6 +40,8 @@ import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { PaymentCardComponent } from './shared/components/payment-card/payment-card.component';
 import { PaymentsmethodCardComponent } from './shared/paymentsmethod-card/paymentsmethod-card.component';
 import { DestinationComponent } from './public/pages/destination/destination.component';
+import { FooterComponent } from './uniride/public/components/footer/footer.component';
+import { ToolbarComponent } from './unirider/public/components/toolbar/toolbar.component';
 
 
 @NgModule({
@@ -56,6 +58,8 @@ import { DestinationComponent } from './public/pages/destination/destination.com
     PaymentCardComponent,
     PaymentsmethodCardComponent,
     DestinationComponent,
+    FooterComponent,
+    ToolbarComponent,
 
   ],
   imports: [
