@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'UniRider';
   options = [
-    { path: '/unirider/maps', title: 'Maps'},
+    { path: 'unirider/home', title: 'Home'},
+    {path: 'unirider/plans',title: 'Plans'},
+    {path: 'unirider/maps', title: 'Maps'}
   ]
 }
