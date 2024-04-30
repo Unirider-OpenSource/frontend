@@ -1,0 +1,90 @@
+#header {
+  width: 99%;
+  height: 100px;
+  background-color: #07dba6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  font-size: 22px;
+  font-family: Arial, sans-serif; /* Agrega esta línea para especificar la fuente */
+  gap: 8px;
+}
+
+
+
+
+#menu ul li a { /*bloque*/
+  display: block;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 70px;
+  margin-right: 60px;
+  margin-top: -20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+
+.specifications-list ul {
+  list-style-type: disc; /* Establece el tipo de viñeta como círculos */
+  margin-left: 0; /* Elimina el margen izquierdo predeterminado */
+  padding-left: 10px; /* Agrega un poco de espacio a la izquierda para la viñeta */
+}
+
+#menu ul li a {
+  display: block;
+  color: #f5ecec;
+  text-decoration: none;
+
+}
+
+.logo p {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+#menu {
+  width: 50%;
+  font-size: 20px; /* Tamaño de la fuente reducido */
+}
+
+#menu ul {
+  margin-top: 30px;
+  list-style: none;
+  display: flex;
+  margin-left: 290px;
+  gap: 5px;
+}
+button {
+  background-color: #16e999;
+  font-weight: bold;
+  font-size: 12px;
+  padding: 5px 8px;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+  transform: translateY(-6px);
+}
