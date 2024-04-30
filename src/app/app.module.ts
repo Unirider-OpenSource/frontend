@@ -39,7 +39,7 @@ import {NgOptimizedImage} from "@angular/common";
 import {MatButtonToggleModule} from "@angular/material/button-toggle";
 import { PaymentCardComponent } from './shared/components/payment-card/payment-card.component';
 import { PaymentsmethodCardComponent } from './shared/paymentsmethod-card/paymentsmethod-card.component';
-import { DestinationComponent } from './public/pages/destination/destination.component';
+import { DestinationComponent } from './unirider/public/pages/destination/destination.component';
 import { FooterComponent } from './uniride/public/components/footer/footer.component';
 import { ToolbarComponent } from './unirider/public/components/toolbar/toolbar.component';
 

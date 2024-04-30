@@ -7,7 +7,7 @@ import {PlansComponent} from "./public/pages/plans/plans.component";
 import {MapsComponent} from "./public/pages/maps/maps.component";
 import {CommentsComponent} from "./public/pages/comments/comments.component";
 import {authGuard} from "./access/guards/auth.guard";
-import {DestinationComponent} from "./public/pages/destination/destination.component";
+import {DestinationComponent} from "./unirider/public/pages/destination/destination.component";
 
 
 const routes: Routes = [
